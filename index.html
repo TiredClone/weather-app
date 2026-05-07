@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <h1 class="card__title">Weather App</h1>
+        <p class="card__date">Today, <span id="date"></span></p>
+        <div class="card__search">
+            <input type="text" class="card__input" placeholder="Enter city name"/>
+            <button id="searhBtn" class="card_btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="card__weather">
+            <h2 class="card__title card_title--city">New York</h2>
+            <div class="card__block">
+                <h3 class="card__title card_title--temp">22°C</h3>
+                <img src="" alt="Icon" class="card_weather_icon">
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
